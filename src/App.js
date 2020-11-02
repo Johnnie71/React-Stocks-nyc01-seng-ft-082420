@@ -3,6 +3,12 @@ import Header from './components/Header'
 import MainContainer from './containers/MainContainer'
 
 class App extends Component {
+
+  state = {
+    portfolio: []
+  }
+
+
   render() {
     return (
       <div>
